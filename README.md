@@ -3,7 +3,7 @@ from pathlib import Path
 
 class DirectoryTree:
 
-    def __init__(self, root):
+    def __init__(self, rooot):
         self.root = Path(root)
         self.lines = []
 
