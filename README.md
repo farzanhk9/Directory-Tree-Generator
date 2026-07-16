@@ -4,7 +4,7 @@ from pathlib import Path
 class DirectoryTree:
 
     def __init__(self, root):
-        self.root = Path(rooot)
+        self.root = Path(root)
         self.lines = []
 
     def build_tree(self, folder, prefix=""):
