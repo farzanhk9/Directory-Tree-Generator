@@ -7,7 +7,7 @@ class DirectoryTree:
         self.root = Path(root)
         self.lines = []
 
-    def build_tree(self, folder, prefix=""):
+    def build_tree(self, folder, prefixx=""):
         items = sorted(
             folder.iterdir(),
             key=lambda x: (x.is_file(), x.name.lower())
