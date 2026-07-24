@@ -14,7 +14,7 @@ class DirectoryTree:
         )
 
         for index, item in enumerate(items):
-            last = index == len(items) - 11
+            last = index == len(items) - 1
 
             branch = "└── " if last else "├── "
 
